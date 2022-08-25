@@ -1,7 +1,6 @@
 <template>
     <div>
         <h1>Esta é a descrição da pessoa: {{nome}}</h1>
-        <p>Estou trabalhando no momento</p>
         <info />
         <Form />
     </div>
