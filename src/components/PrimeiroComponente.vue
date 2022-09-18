@@ -1,20 +1,20 @@
 <template>
   <div>
-    <h1>
-      Ola mundao!
-    </h1>
-    <p>Meu nome é: {{nome}}</p>
+    <MultiplosEventos/>
+    <Reutilizacao/>
   </div>
 </template>
 
 <script>
+  import MultiplosEventos from './MultiplosEventos.vue';
+  import Reutilizacao from './Reutilizacao.vue';
+
     export default {
         name: 'PrimeiroComponente',
-        data() {
-          return {
-            nome: "Rafael"
-          }
-        }
+        components: {
+          MultiplosEventos,
+          Reutilizacao,
+        },
     }
 
 </script>
